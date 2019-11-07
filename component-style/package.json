@@ -1,0 +1,19 @@
+{
+	"name": "component-style",
+	"version": "0.0.1",
+	"description": "let you rewrite css style on a react wrapper component",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc"
+	},
+	"keywords": [
+		"react",
+		"style",
+		"component",
+		"css",
+		"css3"
+	],
+	"author": "HanWang",
+	"license": "MIT",
+	"dependencies": {}
+}
