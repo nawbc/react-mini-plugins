@@ -1,7 +1,8 @@
 {
 	"name": "component-style",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "let you rewrite css style on a react wrapper component",
+	"repository": "https://github.com/sewerganger/react-mini-plugins.git",
 	"main": "index.js",
 	"scripts": {
 		"build": "tsc"
@@ -14,6 +15,5 @@
 		"css3"
 	],
 	"author": "HanWang",
-	"license": "MIT",
-	"dependencies": {}
+	"license": "MIT"
 }

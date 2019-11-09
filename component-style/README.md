@@ -6,6 +6,20 @@
 
 ### 2. Usage
 
+you can use css selector as the object name like `div+span`&nbsp; `input[type='text']`
+
+#### Api
+
+1. `comptStyle(componentName: string, style: object)`
+<br/>
+ `return (<div id="componentName" >......</div>)`
+
+2. `import 'component-style/polyfill'` 
+<br />
+to support ie5 - ie8
+
+#### Example
+
 ```javascript
 import ReactDOM from 'react-dom';
 import { comptStyle } from 'component-style';
