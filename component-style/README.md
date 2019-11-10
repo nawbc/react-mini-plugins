@@ -11,8 +11,9 @@ you can use css selector as the object name like `div+span`&nbsp; `input[type='t
 #### Api
 
 1. `comptStyle(componentName: string, style: object)`
-<br/>
- `return (<div id="componentName" >......</div>)`
+
+
+`return <div id="componentName" >......</div>`
 
 2. `import 'component-style/polyfill'` 
 <br />
