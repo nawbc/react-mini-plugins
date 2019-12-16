@@ -25,10 +25,15 @@ to support ie5 - ie8
 import ReactDOM from 'react-dom';
 import { comptStyle } from 'component-style';
 import 'component-style/polyfill' // add polyfill to support ie5-8
-import React from 'react';
+import React,{useEffect} from 'react';
+
 
 function Demo(props) {
- comptStyle('#demo', props.comptStyle);
+
+ useEffect(()=>{
+   comptStyle('#demo', props.comptStyle);
+ }, []);
+ 
  return (
   <div id="demo">
     <div className="a">
